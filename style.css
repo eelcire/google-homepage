@@ -1,54 +1,77 @@
 .module {
     all: unset;
-  }
+}
 html {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+nav {
+    width: 100%;
 }
 ul {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
+.top1 {
+    float: left;
+    margin-top: 13px;
+}
+.top2 {
+    float: right;
+}
 li {
-    display: inline-block;
+    display: inline;
     font-size: 13px;
 }
-.nav1 {
-    float: right;
-    margin-right: 15px;
-    margin-top: 6px;
-}
 .about {
-    margin-top: 15px;
     margin-left: 17px;
 }
 .store {
     margin-left: 14px;
 }
 .gmail {
-    margin-left: 1116px;
+    float: right;
+    position: absolute;
+    right: 178px;
+    margin-top: 15px;
 }
 .images {
-    margin-left: 10px;
+    float: right;
+    position: absolute;
+    right: 120px;
+    margin-top: 15px;
+}
+.nav1 {
+    float: right;
+    position: absolute;
+    margin-right: 15px;
+    right: 8px;
+    margin-top: 6px;
 }
 .logo {
-    margin-top: 159px;
-    margin-left: 576px;
+    width: 100%;
+    text-align: center;
+    padding-top: 13.38%;
+}
+form {
+    text-align: center;
 }
 .searchbox {
-    border: none;
-    margin-left: 426px;
     margin-top: 23px;
     width: 580px;
     height: 42px;
-    display: block;
     border-radius: 50px;
     border: 1px solid rgb(231, 231, 231);
+    display: inline-block;
 }
 .undersearch {
     margin-top: 30px;
-    margin-left: 570px;
+    margin-left: ;
+    text-align: center;
 }
 .gsearch {
     border: none;
@@ -70,19 +93,31 @@ li {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 12px;
     background-color: #f1f1f1;
     text-align: center;
+    width: 100%;
+    height: 41px;
 }
-.advertising {
-    margin-right: 22px;
+.bot1 {
+    float: left;
+    margin-top: 11px;
+}
+.bot2 {
+    float: right;
+    margin-top: 11px;
+}
+.advertising { 
+    margin-left: 30px;
 }
 .business {
-    margin-right: 1053px;
+    margin-left: 22px;
 }
 .privacy {
     margin-right: 23px;
 }
 .terms {
-    margin-right: 22px;
+    margin-right: 23px;
+}
+.settings {
+    margin-right: 30px;
 }
